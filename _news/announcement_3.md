@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Started working under [Prof. Shishir N. Y. Kolathaya](https://www.shishirny.com/) as a resarch intern in Stochastic Robotics Lab at IISc Bangalore
+Started working under [Prof. Shishir N. Y. Kolathaya](https://www.shishirny.com/) as a resarch intern in Stochastic Robotics Lab at IISc Bangalore, India

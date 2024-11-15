@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Started working under [Prof. Saeedvand](https://scholar.google.com/citations?user=Ljf3pYgAAAAJ&hl=en) & [Prof. Jacky](https://scholar.google.co.in/citations?user=557QR3kAAAAJ&hl=hi) as a resarch intern in ERC Lab at NTNU Taiwan
+Started working under [Prof. Saeedvand](https://scholar.google.com/citations?user=Ljf3pYgAAAAJ&hl=en) & [Prof. Jacky](https://scholar.google.co.in/citations?user=557QR3kAAAAJ&hl=hi) as a research intern in ERC Lab at NTNU Taiwan
