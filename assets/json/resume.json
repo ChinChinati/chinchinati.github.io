@@ -139,16 +139,6 @@
       "keywords": ["Yaskawa Arm", "Diablo Robot", "Nvidia Orin", "Depth Camera", "3D LIDAR", "Dynamixel Actuators", "RaspberryPi", "Odroid XU4"]
     }
   ],
-  "languages": [
-    {
-      "language": "English",
-      "fluency": "Fluent"
-    },
-    {
-      "language": "Hindi",
-      "fluency": "Native Speaker"
-    }
-  ],
   "interests": [
     {
       "name": "Robotics",
