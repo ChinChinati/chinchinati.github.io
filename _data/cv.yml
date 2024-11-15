@@ -2,9 +2,10 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
+      value: Shailesh
+    - name: Email
+      value: shailesh.xml@gmail.com
+    - phone: +91 7992258151
     - name: Languages
       value: English, German
 

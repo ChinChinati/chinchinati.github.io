@@ -1,81 +1,49 @@
 ---
 layout: page
-title: project 3 with very long name
-description: a project that redirects to another website
-img: assets/img/7.jpg
-redirect: https://unsplash.com
-importance: 3
-category: work
+title: Autonomous Self-Balancing Robot
+description: PID and LQR Controller
+img: assets/img/sabar.jpg
+importance: 5
+category: <
+related_publications: false
 ---
+### <a href="https://github.com/ChinChinati/Self_balancing_bot">[code]</a>
+# Two-Wheeled Self Balancing Robot
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+**Mentored by**: Prof. Arun Dayal Udai  
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+This project focuses on the design, development, and control of a **Two-Wheeled Self Balancing Robot**. The robot was created from scratch, both in hardware and software, with a custom-built **cascaded PID controller** to ensure stability and accurate balancing. The robot was also simulated in both **Gazebo** and **Simulink** to validate and refine the controller performance under various conditions.
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+## Key Contributions
+
+### 1. **Controller Development**
+   - Developed a **custom cascaded PID-based controller** that integrates **acceleration** values to improve the robot's stability and response time.
+   - The cascaded PID controller ensures better performance in balancing the robot by separating the control of tilt angle and angular velocity, allowing for smoother corrections.
+
+### 2. **Simulation**
+   - **Gazebo Simulation**: Simulated the robot using the cascaded PID controller to test and visualize its behavior in a 3D environment. This simulation helped identify potential issues in the control loop before hardware implementation.
+   - **Simulink Simulation**: Implemented an **LQR (Linear Quadratic Regulator)** controller in Simulink to explore a different approach to balancing and compare its performance against the cascaded PID controller.
+
+### 3. **Hardware Design**
+   - Designed and built the **two-wheeled robot hardware** from scratch, including the motor driver circuitry, sensor integration, and mechanical components. The robot's core functionality is based on precise control of the motors in response to sensor data (such as tilt and angular velocity).
+   - Integrated **gyroscope** and **accelerometer** sensors to monitor the robot’s tilt and acceleration, feeding the data into the controller to maintain balance.
+
+## Challenges Overcome
+   - Fine-tuned the controller to deal with non-linearities in the robot’s dynamics.
+   - Addressed sensor noise and drift, ensuring that the robot could maintain stable balance in real-world conditions.
+   - Optimized the simulation-to-hardware transfer, ensuring that results from Gazebo and Simulink matched the real-world performance of the robot.
+
+## Conclusion
+
+This project demonstrates the integration of both hardware and advanced control techniques to build a **two-wheeled self-balancing robot**. The development of custom controllers and simulation in both **Gazebo** and **Simulink** has provided invaluable insights into robotic control systems and stability management. The project provides a solid foundation for further exploration of dynamic balancing and robotic control systems.
 
 <div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
+<div class="text-center mt-3 mt-md-0">
+<iframe width="930" height="550" src="https://www.youtube.com/embed/RTfxgl5l3NM?si=I3ojspaZbAXg7j6E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+
 </div>
 <div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
+    Project Video
 </div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
-
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
-
-{% endraw %}
+---

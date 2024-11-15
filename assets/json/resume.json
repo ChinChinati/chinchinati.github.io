@@ -1,200 +1,198 @@
 {
   "basics": {
-    "name": "Albert Einstein",
-    "label": "Scientist",
+    "name": "Shailesh",
+    "label": "Undergraduate Student",
     "image": "",
-    "email": "albert@einstein.de",
-    "phone": "(912) 123-4567",
-    "url": "https://alshedivat.github.io/al-folio/",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
+    "email": "shailesh.xml@gmail.com",
+    "phone": "+91-7992258151",
+    "url": "https://chinchinati.github.io",
+    "summary": "A highly motivated student with a passion for robotics and artificial intelligence.",
     "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
-      "countryCode": "US",
-      "region": "California"
+      "address": "",
+      "postalCode": "",
+      "city": "Dhanbad",
+      "countryCode": "IN",
+      "region": "Jharkhand"
     },
     "profiles": [
       {
-        "network": "Twitter",
-        "username": "AlbertEinstein",
-        "url": "https://twitter.com/AlbertEinstein"
+        "network": "GitHub",
+        "username": "shailesh.xml",
+        "url": "https://github.com/shailesh.xml"
       }
     ]
   },
-  "work": [
+  "work Experience": [
     {
-      "name": "Institute for Advanced Study, Princeton University",
-      "position": "Professor of Theoretical Physics",
-      "url": "https://example.com",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
-      "highlights": ["Relativity"]
-    }
-  ],
-  "volunteer": [
+      "name": "Undergraduate Research Internship",
+      "position": "Researcher",
+      "url": "",
+      "startDate": "2024-08-01",
+      "endDate": "2024-08-01",
+      "summary": "Working on using state-of-the-art foundation models (VLMs & LLMs) to solve robotic manipulation problems.",
+      "highlights": ["Working on precise manipulation in indoor environments relying on robot vision."]
+    },
     {
-      "organization": "People's Climate March",
-      "location": "Zurich, Switzerland",
-      "position": "Lead Organizer",
-      "url": "https://example.com",
-      "startDate": "2014-04-01",
-      "endDate": "2015-07-01",
-      "summary": "Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.",
-      "highlights": ["Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march.", "Men of the year 2014 by Time magazine"]
+      "name": "ERC Lab, National Taiwan Normal University",
+      "position": "Research Intern",
+      "url": "",
+      "startDate": "2024-05-01",
+      "endDate": "2024-07-01",
+      "summary": "Worked on collaborative control of upper & lower body of a wheeled humanoid robot using multi-agent reinforcement learning.",
+      "highlights": [
+        "Trained robust policy to maneuver and jump in the Isaac Gym environment.",
+        "Trained collaborative policies for upper and lower body, using MAPPO, IPPO & Dual-A2C.",
+        "The policy could handle manipulation tasks by the upper body while the lower body handled balancing and maneuvering."
+      ]
+    },
+    {
+      "name": "Stochastic Robotics Lab, Indian Institute of Science (IISc, Bangalore)",
+      "position": "Research Intern",
+      "url": "",
+      "startDate": "2023-12-01",
+      "endDate": "2023-12-01",
+      "summary": "Worked on a locomotion controller that can execute diverse gaits with variable footswing, posture, and speed.",
+      "highlights": [
+        "Trained a single policy that can execute four different gaits.",
+        "The robot was trained using teacher-student curriculum learning.",
+        "Developed a ROS package for the same robot.",
+        "Transferred the RL policy into the ROS (Gazebo) environment."
+      ]
+    },
+    {
+      "name": "TEXMiN (Technology Innovation Hub)",
+      "position": "Research Assistant",
+      "url": "",
+      "startDate": "2023-02-01",
+      "endDate": "2024-04-01",
+      "summary": "Worked on the development of an in-house Quadrupedal Robot for Mining Application.",
+      "highlights": [
+        "Developed a ROS-based framework for the in-house developed Quadrupedal Robot.",
+        "Derived the kinematics and dynamics for the robot.",
+        "Worked on a locomotion controller using ZMP stabilization (V1) and a reinforcement learning-based control policy (V2).",
+        "Performed hardware testing of the locomotion controller."
+      ]
     }
   ],
   "education": [
     {
-      "institution": "University of Zurich, Zurich, Switzerland",
-      "location": "Zurich, Switzerland",
-      "url": "https://www.uzh.ch/",
-      "area": "Software Development",
-      "studyType": "PhD",
-      "startDate": "1905-01-01",
-      "endDate": "1905-01-01",
-      "score": "10",
-      "courses": ["Theory of Relativity"]
+      "institution": "Indian Institute of Technology (IIT ISM), Dhanbad",
+      "location": "Dhanbad, India",
+      "area": "Electrical Engineering",
+      "studyType": "Bachelors of Technology",
+      "startDate": "2021-08-01",
+      "endDate": "2025-05-01",
+      "score": ""
+    },
+    {
+      "institution": "Al Momin International School, Gaya",
+      "location": "Gaya, India",
+      "area": "High School",
+      "studyType": "12th Grade",
+      "startDate": "2018-04-01",
+      "endDate": "2021-03-01",
+      "score": "92.4%"
     }
   ],
   "awards": [
     {
-      "title": "Nobel Prize in Physics",
-      "date": "1921-11-01",
-      "awarder": "Royal Swedish Academy of Sciences",
-      "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/",
-      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
-    }
-  ],
-  "certificates": [
-    {
-      "name": "Machine Learning",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-location-dot"
+      "title": "1st Position, Robofest Gujarat 3.0 2023",
+      "date": "2023-01-01",
+      "awarder": "Robofest Gujarat",
+      "url": "",
+      "summary": "India's Biggest Robotics Competition, prize money $12,000"
     },
     {
-      "name": "Quantum Computing",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-tag"
+      "title": "1st Position, Vichesta (ROS simulation competition), Takshak 2022",
+      "date": "2022-01-01",
+      "awarder": "Takshak 2022",
+      "url": "",
+      "summary": "East India's Largest Robotics Fest"
     },
     {
-      "name": "Quantum Information",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-envelope"
-    },
-    {
-      "name": "Quantum Cryptography",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-hashtag"
-    },
-    {
-      "name": "Quantum Communication",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-calendar"
-    },
-    {
-      "name": "Quantum Teleportation",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-clipboard-check"
-    }
-  ],
-  "publications": [
-    {
-      "name": "Zur Elektrody/namik bewegter Körper",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-06-30",
-      "url": "https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies",
-      "summary": "It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source."
-    },
-    {
-      "name": "Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-03-18",
-      "url": "https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt",
-      "summary": "In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921."
-    },
-    {
-      "name": "Die Grundlage der allgemeinen Relativitätstheorie",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1916-03-20",
-      "url": "https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie",
-      "summary": "The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914)."
+      "title": "3rd Position, Robowars (BattleBots) at Concetto 2022",
+      "date": "2022-01-01",
+      "awarder": "Concetto 2022",
+      "url": "",
+      "summary": "Annual Tech Fest of IIT Dhanbad"
     }
   ],
   "skills": [
     {
-      "name": "Physics",
-      "level": "Master",
-      "icon": "fa-solid fa-hashtag",
-      "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
-      ]
+      "name": "Programming",
+      "level": "Expert",
+      "keywords": ["C++", "Python", "MATLAB", "Linux", "Git"]
+    },
+    {
+      "name": "Simulation and Visualization",
+      "level": "Expert",
+      "keywords": ["Isaac Gym", "Gazebo", "RViz", "CoppeliaSim", "Simulink"]
+    },
+    {
+      "name": "Frameworks and Libraries",
+      "level": "Expert",
+      "keywords": ["ROS/ROS2", "PyTorch", "OpenCV", "SymPy", "Matplotlib"]
+    },
+    {
+      "name": "Hardware",
+      "level": "Proficient",
+      "keywords": ["Yaskawa Arm", "Diablo Robot", "Nvidia Orin", "Depth Camera", "3D LIDAR", "Dynamixel Actuators", "RaspberryPi", "Odroid XU4"]
     }
   ],
   "languages": [
     {
-      "language": "German",
-      "fluency": "Native speaker",
-      "icon": ""
+      "language": "English",
+      "fluency": "Fluent"
     },
     {
-      "language": "English",
-      "fluency": "Fluent",
-      "icon": ""
+      "language": "Hindi",
+      "fluency": "Native Speaker"
     }
   ],
   "interests": [
     {
-      "name": "Physics",
-      "icon": "fa-solid fa-tag",
-      "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
-      ]
-    }
-  ],
-  "references": [
-    {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-laptop",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
+      "name": "Robotics",
+      "keywords": ["Computer Vision", "Legged Robots", "Humanoid Robots", "Control Systems"]
     },
     {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-thumbtack",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
+      "name": "Embedded Systems",
+      "keywords": ["Microcontrollers", "Sensor Interfacing" ]
+    },
+    {
+      "name": "Machine Learning",
+      "keywords": ["Reinforcement Learning", "Foundation Models", "Computer Vision"]
     }
   ],
   "projects": [
     {
-      "name": "Quantum Computing",
-      "summary": "Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.",
-      "highlights": ["Quantum Teleportation", "Quantum Cryptography"],
-      "startDate": "2018-01-01",
-      "endDate": "2018-01-01",
-      "url": "https://example.com"
+      "name": "Inter IIT Tech Meet 11.0 - Drona Aviation Problem Statement",
+      "summary": "Worked on accurate pose estimation of drones using ArUco Tag and a single monocular camera.",
+      "highlights": [
+        "Developed a system to hover a drone at a particular height using ArUco Tag.",
+        "Implemented a method to move the drone in a rectangular motion (1 x 2 meter) and make a second drone follow the first drone."
+      ],
+      "startDate": "2022-12-01",
+      "endDate": "2023-02-01",
+      "url": ""
+    },
+    {
+      "name": "Omni-Wheel Self Balancing Bike",
+      "summary": "Solved the mathematical model and implemented LQR control for an omni-wheel self-balancing bike.",
+      "highlights": ["Simulated the robot in CoppeliaSim.", "Developed the hardware and implemented the LQR control on the robot."],
+      "startDate": "2023-11-01",
+      "endDate": "2024-01-01",
+      "url": ""
+    },
+    {
+      "name": "Two-Wheeled Self Balancing Robot",
+      "summary": "Developed a custom cascaded PID-based controller for a two-wheeled self-balancing robot.",
+      "highlights": [
+        "Simulated the robot in Gazebo (using cascaded PID controller) and Simulink (with LQR controller).",
+        "Designed and built a two-wheeled robot in hardware from scratch."
+      ],
+      "startDate": "2023-03-01",
+      "endDate": "2023-12-01",
+      "url": ""
     }
   ]
 }

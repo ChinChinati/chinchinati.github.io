@@ -1,81 +1,88 @@
 ---
+
 layout: page
-title: project 7
-description: with background image
-img: assets/img/4.jpg
+title: mini_GPT
+description: A Smaller Version of ChatGPT-3
+img: assets/img/minigpt.jpeg
 importance: 1
-category: work
-related_publications: true
+category: <
+related_publications: false
+
+---
+### Project Source Code: [[Github]](https://github.com/ChinChinati/mini_GPT/)
+
+## **Overview**  
+**mini_GPT** is a smaller, custom implementation of a transformer-based language model inspired by ChatGPT-3. Designed to run efficiently on my laptop's **RTX 4060 GPU**, mini_GPT offers a practical foundation for understanding the architecture and key concepts behind large language models (LLMs). This project focuses on hands-on implementation and training of a scaled-down version of GPT, using the **Shakespeare Dataset** as a text corpus.
+
+## Key Features
+
+- **Architecture**: mini_GPT features a transformer-based architecture with:
+  - **6 attention heads per layer**
+  - **6 total layers**
+  - **Embedding size of 384**
+  
+- **Dataset**: The model was trained on the **Shakespeare Dataset**, offering a rich, text-heavy corpus that allowed for experimentation with natural language generation.
+
+- **Training**:  
+  - The model was trained overnight on a **single RTX 4060 GPU (8GB)**.
+  - Despite producing nonsensical sentences due to the model’s size, the project provided significant insights into the workings of neural networks for NLP tasks.
+
+## Core Concepts Explored
+
+By implementing mini_GPT from scratch, I gained hands-on experience with the following key concepts fundamental to LLMs:
+- **Embeddings**: Converting words or tokens into continuous vector representations.
+- **Tokens, Keys, and Queries**: Understanding the attention mechanism and how tokens are processed in relation to each other.
+- **Multi-Head Attention**: Distributing attention across multiple heads for improved representation learning.
+- **Residual Connections**: Maintaining gradient flow through deep networks by allowing direct connections between layers.
+
+## Project Insights
+
+Although the generated text often didn’t make sense, working with **mini_GPT** deepened my understanding of how LLMs function and how training parameters affect model performance. The experience with embeddings, attention mechanisms, and optimization techniques was invaluable for future work in the field of NLP.
+
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+## Project Source Code
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+You can find the complete source code and implementation details in the [mini_GPT GitHub Repository](https://github.com/ChinChinati/mini_GPT/).
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+---
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
+## Code Usage Guidelines
 
-You can also put regular text between your rows of images, even citations {% cite einstein1950meaning %}.
-Say you wanted to write a bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+### Installation
+Ensure you have the following required packages installed:  
+- `torch==2.4.0+cu121`  
+- Python version **3.10**
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
+Install dependencies via pip:
+```bash
+pip install torch==2.4.0+cu121
 ```
+### Prepare the Dataset
 
-{% endraw %}
+Download the **Shakespeare Dataset** and place it in the `data/` folder.
+
+## Running the Code
+
+The project contains two main files, **`v2.py`** and **`gpt.py`**, which differ in model size. Choose the file that suits your computational resources:
+
+- Adjust the model size in the respective file by editing the configuration parameters such as the number of layers, attention heads, or embedding dimensions.
+
+### Steps to Run:
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/ChinChinati/mini_GPT.git
+   cd mini_GPT
+   ```
+
+### Run the Training Script
+
+Use one of the following commands to train the model, depending on the model size you prefer:
+
+```bash
+python v2.py
+# or
+python gpt.py
+```
+  

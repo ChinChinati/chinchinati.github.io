@@ -1,81 +1,53 @@
 ---
 layout: page
-title: project 1
-description: with background image
-img: assets/img/12.jpg
-importance: 1
-category: work
-related_publications: true
+title: Wheeled-Humanoid Robot 
+description: RL Controller
+img: assets/img/centaur.jpg
+importance: 2
+category: <
+related_publications: false
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+# Collaborative Control of Upper and Lower Body for Wheeled Humanoid Robots Using Multi-Agent Reinforcement Learning  
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+This project focuses on developing a robust collaborative control framework for wheeled humanoid robots using advanced Multi-Agent Reinforcement Learning (MARL) techniques. The objective was to enable effective coordination between the robot's upper and lower body to achieve complex tasks such as balancing, maneuvering, and manipulation in dynamic environments.  
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+## Key Highlights  
+- **Environment Simulation:**  
+  Developed and trained policies in the NVIDIA Isaac Gym environment, leveraging its high-fidelity physics simulation for rapid policy evaluation.  
+
+- **Collaborative Policy Training:**  
+  Designed specialized policies for the upper and lower body, employing algorithms like:  
+  - MAPPO (Multi-Agent Proximal Policy Optimization)  
+  - IPPO (Independent Proximal Policy Optimization)  
+  - Dual-A2C (Actor-Critic)  
+
+- **Task Coordination:**  
+  - Lower body: Trained to maintain balance and execute precise maneuvers.  
+  - Upper body: Optimized for manipulation tasks.  
+  - Achieved seamless coordination for simultaneous locomotion and object interaction.  
+
+- **Robust Performance:**  
+  The trained policies demonstrated resilience to disturbances, allowing the robot to perform challenging tasks such as jumping and handling objects in unstructured scenarios.  
+
+This work showcases the potential of MARL in enhancing the adaptability and efficiency of humanoid robots, paving the way for their deployment in real-world applications requiring advanced mobility and dexterity.  
 
 <div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
+<div class="text-center mt-3 mt-md-0">
+    <iframe 
+        width="930" 
+        height="550" 
+        src="https://www.youtube.com/embed/h2RINaXp3i8?si=DZ8Dz7dfWSrPicfi" 
+        title="YouTube video player" 
+        frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+        referrerpolicy="strict-origin-when-cross-origin" 
+        allowfullscreen>
+    </iframe>
+</div>
+
 </div>
 <div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
+    Project Video
 </div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
-
-You can also put regular text between your rows of images, even citations {% cite einstein1950meaning %}.
-Say you wanted to write a bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
-
-{% endraw %}
+---
