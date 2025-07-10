@@ -1,5 +1,4 @@
 ---
-
 layout: page
 title: mini_GPT
 description: A Smaller Version of ChatGPT-3
@@ -7,11 +6,12 @@ img: assets/img/minigpt.jpeg
 importance: 1
 category: <
 related_publications: false
-
 ---
+
 ### Project Source Code: [[Github]](https://github.com/ChinChinati/mini_GPT/)
 
-## **Overview**  
+## **Overview**
+
 **mini_GPT** is a smaller, custom implementation of a transformer-based language model inspired by ChatGPT-3. Designed to run efficiently on my laptop's **RTX 4060 GPU**, mini_GPT offers a practical foundation for understanding the architecture and key concepts behind large language models (LLMs). This project focuses on hands-on implementation and training of a scaled-down version of GPT, using the **Shakespeare Dataset** as a text corpus.
 
 ## Key Features
@@ -20,16 +20,16 @@ related_publications: false
   - **6 attention heads per layer**
   - **6 total layers**
   - **Embedding size of 384**
-  
 - **Dataset**: The model was trained on the **Shakespeare Dataset**, offering a rich, text-heavy corpus that allowed for experimentation with natural language generation.
 
-- **Training**:  
+- **Training**:
   - The model was trained overnight on a **single RTX 4060 GPU (8GB)**.
   - Despite producing nonsensical sentences due to the model’s size, the project provided significant insights into the workings of neural networks for NLP tasks.
 
 ## Core Concepts Explored
 
 By implementing mini_GPT from scratch, I gained hands-on experience with the following key concepts fundamental to LLMs:
+
 - **Embeddings**: Converting words or tokens into continuous vector representations.
 - **Tokens, Keys, and Queries**: Understanding the attention mechanism and how tokens are processed in relation to each other.
 - **Multi-Head Attention**: Distributing attention across multiple heads for improved representation learning.
@@ -50,14 +50,18 @@ You can find the complete source code and implementation details in the [mini_GP
 ## Code Usage Guidelines
 
 ### Installation
-Ensure you have the following required packages installed:  
-- `torch==2.4.0+cu121`  
+
+Ensure you have the following required packages installed:
+
+- `torch==2.4.0+cu121`
 - Python version **3.10**
 
 Install dependencies via pip:
+
 ```bash
 pip install torch==2.4.0+cu121
 ```
+
 ### Prepare the Dataset
 
 Download the **Shakespeare Dataset** and place it in the `data/` folder.
@@ -85,4 +89,3 @@ python v2.py
 # or
 python gpt.py
 ```
-  

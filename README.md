@@ -1,9 +1,9 @@
 # al-folio
+
 bundle install
 bundle exec jekyll server --trace
-npx prettier --write _sass/_themes.scss
+npx prettier --write \_sass/\_themes.scss
 bundle exec jekyll server
-
 
 <div align="center">
 

@@ -6,16 +6,18 @@ img: assets/img/cnc.png
 importance: 6
 category: <
 ---
+
 ### <a href="https://github.com/ChinChinati/CNC_Plotter">[code]</a>
+
 # CNC Plotter - Image Drawing Project
 
-This GitHub repository contains the complete code and resources for building a **CNC Plotter** that can draw any image on paper. The plotter is based on an **Arduino Uno** board and utilizes **stepper motors** to precisely control the movement of the drawing mechanism. The project also employs a **servo motor** to control the pen holder, allowing for high-precision image drawing on a piece of paper. 
+This GitHub repository contains the complete code and resources for building a **CNC Plotter** that can draw any image on paper. The plotter is based on an **Arduino Uno** board and utilizes **stepper motors** to precisely control the movement of the drawing mechanism. The project also employs a **servo motor** to control the pen holder, allowing for high-precision image drawing on a piece of paper.
 
 The CNC Plotter can take any image file, convert it into a series of movement instructions (G-code), and then draw it onto paper. This project is ideal for makers, hobbyists, and students interested in CNC machining, robotics, or image processing, as it uses commonly available hardware components and open-source software tools.
 
 ---
-<iframe width="930" height="450" src="https://www.youtube.com/embed/TETPuLBlouc?si=v8t3RjRyj8mQDe08" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
----
+
+## <iframe width="930" height="450" src="https://www.youtube.com/embed/TETPuLBlouc?si=v8t3RjRyj8mQDe08" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## Project Overview
 
@@ -57,11 +59,12 @@ The CNC Plotter relies on several open-source software components for both the d
 
 1. **Image Preparation**:
    - The first step in the process is converting the image to a vector format that can be understood by the CNC plotter. This is done by exporting the image as a **DXF** file using Inkscape. DXF is a common format used in CNC machines that describes vector graphics.
-   
 2. **Converting DXF to G-code**:
+
    - In Inkscape, the **DXF** file is loaded and then converted into **G-code** commands using an Inkscape extension. G-code is a language that CNC machines understand, which dictates the movement of the plotter’s motors.
 
 3. **Sending G-code to the Plotter**:
+
    - The G-code commands are saved as a **text file** and loaded into **Processing3**. The Processing script reads the G-code file and sends commands to the Arduino. These commands control the stepper motors and servo motor to move the pen holder and trace the design onto the paper.
 
 4. **Drawing on Paper**:
@@ -73,16 +76,18 @@ The CNC Plotter relies on several open-source software components for both the d
 
 The design of the CNC plotter is modular and scalable. The key steps in the process are:
 
-1. **Setting up the hardware**: 
+1. **Setting up the hardware**:
+
    - Assemble the frame using **L joints** and **aluminum composite sheets** to support the stepper motors and servo motor.
    - Attach the **stepper motors** to the frame and connect them to the **L293N motor drivers**.
    - Connect the **servo motor** to the pen holder, and attach the pen holder mechanism to the motor.
    - Mount the **Arduino Uno** on the frame and wire it up to control all motors.
 
-2. **Software setup**: 
+2. **Software setup**:
+
    - Write and upload the code to the **Arduino** using the **Arduino IDE**. The code will control the stepper motors based on incoming G-code.
    - Use **Inkscape** to convert an image into **G-code**, then send it to the Arduino via **Processing3**.
 
-3. **Drawing**: 
+3. **Drawing**:
    - Place a **cardboard sheet** on the drawing surface.
    - Begin the drawing by sending the G-code to the plotter, and watch as the pen moves to recreate the image on the paper.

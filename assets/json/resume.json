@@ -155,83 +155,41 @@
     {
       "name": "Programming",
       "level": "Expert",
-      "keywords": [
-        "Python",
-        "C++",
-        "Linux",
-        "Git"
-      ]
+      "keywords": ["Python", "C++", "Linux", "Git"]
     },
     {
       "name": "ML/AI",
       "level": "Expert",
-      "keywords": [
-        "RL",
-        "ViTs",
-        "VLMs",
-        "Diffusion Models"
-      ]
+      "keywords": ["RL", "ViTs", "VLMs", "Diffusion Models"]
     },
     {
       "name": "Simulation/Visualization",
       "level": "Expert",
-      "keywords": [
-        "Isaac Sim",
-        "Gazebo",
-        "RViz",
-        "CoppeliaSim",
-        "Simulink"
-      ]
+      "keywords": ["Isaac Sim", "Gazebo", "RViz", "CoppeliaSim", "Simulink"]
     },
     {
       "name": "Frameworks/Libraries",
       "level": "Expert",
-      "keywords": [
-        "ROS/ROS2",
-        "PyTorch",
-        "Open3D",
-        "MoveIt",
-        "OpenCV",
-        "Matplotlib"
-      ]
+      "keywords": ["ROS/ROS2", "PyTorch", "Open3D", "MoveIt", "OpenCV", "Matplotlib"]
     },
     {
       "name": "Hardware",
       "level": "Proficient",
-      "keywords": [
-        "Jetson Orin",
-        "Microcontrollers",
-        "Servo Actuators",
-        "Power Electronics",
-        "IMUs",
-        "3D Printing"
-      ]
+      "keywords": ["Jetson Orin", "Microcontrollers", "Servo Actuators", "Power Electronics", "IMUs", "3D Printing"]
     }
   ],
   "interests": [
     {
       "name": "Robotics",
-      "keywords": [
-        "Computer Vision",
-        "Legged Robots",
-        "Humanoid Robots",
-        "Control Systems"
-      ]
+      "keywords": ["Computer Vision", "Legged Robots", "Humanoid Robots", "Control Systems"]
     },
     {
       "name": "Embedded Systems",
-      "keywords": [
-        "Microcontrollers",
-        "Sensor Interfacing"
-      ]
+      "keywords": ["Microcontrollers", "Sensor Interfacing"]
     },
     {
       "name": "Machine Learning",
-      "keywords": [
-        "Reinforcement Learning",
-        "Foundation Models",
-        "Computer Vision"
-      ]
+      "keywords": ["Reinforcement Learning", "Foundation Models", "Computer Vision"]
     }
   ],
   "projects": [
@@ -271,28 +229,15 @@
   "coursework": [
     {
       "category": "Robotics",
-      "courses": [
-        "Reinforcement Learning",
-        "Self Driving Cars",
-        "Controls Bootcamp",
-        "Industrial Robotics & Automation"
-      ]
+      "courses": ["Reinforcement Learning", "Self Driving Cars", "Controls Bootcamp", "Industrial Robotics & Automation"]
     },
     {
       "category": "Mechatronics",
-      "courses": [
-        "Embedded Systems",
-        "Engineering Mechanics",
-        "Analog and Digital Electronics"
-      ]
+      "courses": ["Embedded Systems", "Engineering Mechanics", "Analog and Digital Electronics"]
     },
     {
       "category": "Software",
-      "courses": [
-        "Machine Learning",
-        "Deep Learning",
-        "Data Structure & Algorithm"
-      ]
+      "courses": ["Machine Learning", "Deep Learning", "Data Structure & Algorithm"]
     }
   ]
 }
