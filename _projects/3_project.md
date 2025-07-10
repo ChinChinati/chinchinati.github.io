@@ -37,9 +37,10 @@ This project focuses on the design, development, and control of a **Two-Wheeled 
 
 This project demonstrates the integration of both hardware and advanced control techniques to build a **two-wheeled self-balancing robot**. The development of custom controllers and simulation in both **Gazebo** and **Simulink** has provided invaluable insights into robotic control systems and stability management. The project provides a solid foundation for further exploration of dynamic balancing and robotic control systems.
 
+
 <div class="row">
 <div class="text-center mt-3 mt-md-0">
-<iframe width="930" height="550" src="https://www.youtube.com/embed/RTfxgl5l3NM?si=I3ojspaZbAXg7j6E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="930" height="550" src="https://www.youtube.com/embed/h7SCwEhvALs?si=izTCJtqIv10d9OkU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div>
 
 </div>
