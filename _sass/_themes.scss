@@ -77,17 +77,17 @@ html[data-theme="dark"] {
   --global-text-color-light: #ffffff;
   --global-theme-color: #{$cyan-color};
   --global-hover-color: #{$cyan-color};
-  --global-hover-text-color: #{$white-color};
+  --global-hover-text-color: #ffffff;
   --global-footer-bg-color: #{$grey-color-light};
-  --global-footer-text-color: #{$grey-color-dark};
+  --global-footer-text-color: #ffffff;
   --global-footer-link-color: #{$black-color};
   --global-distill-app-color: #{$grey-color-light};
   --global-divider-color: #424246;
   --global-card-bg-color: #{$grey-900};
   --global-back-to-top-bg-color: rgba(#{red($white-color)}, #{green($white-color)}, #{blue($white-color)}, 0.5);
-  --global-back-to-top-text-color: #{$black-color};
+  --global-back-to-top-text-color: #ffffff;
   --global-newsletter-bg-color: #{$grey-color-light};
-  --global-newsletter-text-color: #{$grey-color-dark};
+  --global-newsletter-text-color: #ffffff;
 
   --global-tip-block: #42b983;
   --global-tip-block-bg: #e2f5ec;
