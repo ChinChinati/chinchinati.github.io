@@ -1,5 +1,4 @@
 ---
-layout: cv
 permalink: /assets/pdf/Shailesh_Resume.pdf
 title: Resume
 nav: true
